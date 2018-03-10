@@ -63,6 +63,19 @@ python main.py
 
 The demo should be up and running on `http://localhost:8080/serverapi/`
 
+The default credentials for API endpoints that require authentication are
+```bash
+username : 1
+password : test
+```
+
+
+To add authorised users to your API:
+```bash
+add_user(id_=1, paraphrase="test", session=session)
+```
+The above function is called from hydrus/data/user.py file.
+
 <a name="usage"></a>
 Usage
 -------------
